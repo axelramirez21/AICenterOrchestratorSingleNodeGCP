@@ -2,7 +2,7 @@
 ## GCP GENERAL VALUES
 ##################################################################
 provider "google" {
-  credentials = file("technical-account-management-1-0f231056afa6.json")
+  credentials = file(var.gcp_credentials)
   # version = "~> 3.74.0"
   project = var.project
   region  = var.region
@@ -10,7 +10,7 @@ provider "google" {
 }
 
 provider "google-beta" {
-  credentials = file("technical-account-management-1-0f231056afa6.json")
+  credentials = file(var.gcp_credentials)
   #version = "~> 3.74.0"
   project = var.project
   region  = var.region

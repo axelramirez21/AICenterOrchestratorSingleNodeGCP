@@ -10,6 +10,10 @@ variable "zone" {
   description = "Name of the Availability zone"
 }
 
+variable "gcp_credentials" {
+  description = "JSON File"
+}
+
 variable "deployment_prefix" {
   description = "Environment Prefix"
 }
