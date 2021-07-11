@@ -1,4 +1,4 @@
-# Terraform & AWS => UiPath Orchestrator production environment
+# Terraform & GCP => UiPath Orchestrator production environment
 Steps to provision Orchestrator on AWS in ASG (Auto scaling group):
 1. Install terraform  v1.0.2 (https://learn.hashicorp.com/terraform/getting-started/install.html).
 2. Rename terraform-tfvars-template.tf to terraform.tfvars and then complete the file according to the variables.tf file (see inputs below). For Orchestrator hardware requirements and EC2 types check : https://aws.amazon.com/ec2/instance-types/  and https://orchestrator.uipath.com/docs/hardware-requirements-orchestrator.
